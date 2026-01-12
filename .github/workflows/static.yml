@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cidade Grande Roleplay</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0e1621;
+    color: #fff;
+}
+
+/* MENU LATERAL */
+.sidebar {
+    width: 260px;
+    height: 100vh;
+    background: #0b1220;
+    position: fixed;
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.logo img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.logo h2 {
+    margin: 0;
+    color: #00aaff;
+}
+
+/* LINKS */
+.menu a {
+    display: block;
+    padding: 12px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: #cfd8dc;
+    border-radius: 8px;
+}
+
+.menu a:hover {
+    background: #162235;
+}
+
+.menu .active {
+    background: #162235;
+}
+
+/* CONTEÚDO */
+.content {
+    margin-left: 280px;
+    padding: 20px;
+}
+
+.card {
+    background: #121c2d;
+    padding: 20px;
+    border-radius: 12px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="sidebar">
+    <div class="logo">
+        <img src="https://cdn-icons-png.flaticon.com/512/69/69524.png">
+        <h2>Cidade Grande RP</h2>
+    </div>
+
+    <div class="menu">
+        <a class="active" href="#">🏠 Início</a>
+        <a href="#">👤 Minha conta</a>
+        <a href="#">🏡 Propriedades</a>
+        <a href="#">👥 Organizações</a>
+        <a href="#">🌍 Comunidade</a>
+        <a href="#">🎮 Servidor</a>
+        <a href="#">📱 Aplicativos</a>
+        <a href="#">📡 LivePix</a>
+        <a href="#">▶ Influencer</a>
+    </div>
+</div>
+
+<div class="content">
+    <div class="card">
+        <h1>Bem-vindo ao Cidade Grande Roleplay</h1>
+        <p>Servidor RP com sistema moderno e imersivo.</p>
+    </div>
+</div>
+
+</body>
+</html>
